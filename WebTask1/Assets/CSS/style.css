@@ -18,3 +18,19 @@ table.table {
 button.AddNewRow {
 	float: right;
 }
+@media only screen and (max-width: 800px) {
+  	main.content {
+		margin: 50px 20px 0px 20px;
+	}
+	table.table {
+		margin: 50px 0px 50px 0px;
+	}
+	button.AddNewRow {
+		margin-top: 50px;
+	}
+	h1.logo {
+		color: white;
+		padding: 20px 20px 20px 20px;
+		text-align: center;
+	}
+}
